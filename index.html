@@ -24,17 +24,17 @@
     </a>
 
     <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-      <li><a href="#" class="nav-link px-2 link-secondary"> الرئيسية</a></li>
-      <li><a href="#" class="nav-link px-2 link-light">الوظائف </a></li>
-      <li><a href="#" class="nav-link px-2 link-light">خدماتنا</a></li>
+      <li><a href="#" class="nav-link px-2 link-secondary" style="border-bottom: 3px solid #007bff;" > الرئيسية</a></li>
+      <li><a href="Jobs.html" class="nav-link px-2 link-light">الوظائف </a></li>
+      <li><a href="services.html" class="nav-link px-2 link-light">خدماتنا</a></li>
       <li><a href="#" class="nav-link px-2 link-light">الشركاء</a></li>
       <li><a href="#" class="nav-link px-2 link-light">من نحن </a></li>
       <li><a href="#" class="nav-link px-2 link-light">تواصل معنا</a></li>
     </ul>
 
     <div class="col-md-3 text-end">
-      <a href="dashboard.html"> <button type="button" class="btn btn-outline-light me-2">تسجيل الدخول</button> </a>
-      <button type="button" class="btn btn-primary me-0" id="showBTN">إنشاء حساب </button>
+      <a href="login.html"> <button type="button" class="btn btn-outline-light me-2">تسجيل الدخول</button> </a>
+      <a href="signup.html" > <button class="btn btn-primary me-0" id="showBTN">إنشاء حساب </button> </a>
     </div>
   </header>
 
@@ -57,7 +57,7 @@
             <div class="carousel-caption">
               <h1 class="text-dark">نسعى إلى التميز !</h1>
               <p class="text-dark"> قمنا بتوفير +5000 وظيفة منذ بدء العام الجديد! ولا زال نجاحنا في ازدياد</p>
-              <p><a class="btn btn-lg btn-primary" href="#"> وظائفنا </a></p>
+              <p><a class="btn btn-lg btn-primary"href="Jobs.html"> وظائفنا </a></p>
             </div>
           </div>
         </div>
@@ -141,11 +141,12 @@
   <!-- Latest Jobs-->
   <!-- Slider -->
   <main>
+    <h2 class="text-center mb-4 my-5"> آخر الوظائف</h2>
     <div id="myCarousel" class="carousel slide my-5" data-bs-ride="carousel"
       style="width: 70%; height: 30%; margin-left: 150px; ">
     
       <div class="carousel-inner" style="border-radius: 20px;">
-        <div class="carousel-item active" style="background-color: rgb(160, 159, 159); padding-top: 100px; padding-left: 100px;">
+        <div class="carousel-item active" style="background-color: #f2f2f2; padding-top: 100px; padding-left: 100px;">
           <div class="row mx-5">
             <div class="col card mb-5 py-2  text-center" style="max-width: 18rem;  border-radius: 20px;">
               <img class="mx-5 py-2" src="images/img2.jpg" width="100" height="100" />
@@ -161,11 +162,11 @@
 
           </div>
 
-          <p style="margin-left: 250px; "><a class="btn btn-primary py-3 my-5 " href="#"> عرض آخر الوظائف </a></p>
+          <p style="margin-left: 250px; "><a class="btn btn-primary py-3 my-5 " href="Jobs.html"> عرض آخر الوظائف </a></p>
 
         </div>
 
-        <div class="carousel-item " style="background-color: rgb(160, 159, 159); padding-top: 100px; padding-left: 100px;">
+        <div class="carousel-item " style="background-color: #f2f2f2; padding-top: 100px; padding-left: 100px;">
           <div class="row mx-5">
             <div class="col card mb-5 py-2 text-center" style="max-width: 18rem;  border-radius: 20px;">
               <img class="mx-5 py-2" src="images/img2.jpg" width="100" height="100" />
@@ -181,12 +182,12 @@
 
           </div>
 
-          <p style="margin-left: 250px; "><a class="btn btn-primary py-3 my-5 " href="#"> عرض آخر الوظائف </a></p>
+          <p style="margin-left: 250px; "><a class="btn btn-primary py-3 my-5 "href="Jobs.html"> عرض آخر الوظائف </a></p>
 
 
         </div>
 
-        <div class="carousel-item " style="background-color: rgb(160, 159, 159); padding-top: 100px; padding-left: 100px;">
+        <div class="carousel-item " style="background-color: #f2f2f2; padding-top: 100px; padding-left: 100px;">
           <div class="row mx-5">
             <div class="col card mb-5 py-2 text-center" style="max-width: 18rem;  border-radius: 20px;">
               <img class="mx-5 py-2" src="images/img2.jpg" width="100" height="100" />
@@ -202,7 +203,7 @@
 
           </div>
 
-          <p style="margin-left: 250px; "><a class="btn btn-primary py-3 my-5 " href="#"> عرض آخر الوظائف </a></p>
+          <p style="margin-left: 250px; "><a href="Jobs.html" class="btn btn-primary py-3 my-5 "> عرض آخر الوظائف </a></p>
 
 
         </div>
@@ -219,6 +220,7 @@
 
   </main>
 
+  <!-- Footer -->
  <footer class="text-white text-center" style="height: 200px; background-color: #40189d;">
    <p style="padding-top: 150px;"> Made With &#10084 By Ahd Karman</p> 
  </footer>
@@ -232,6 +234,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+
+    <script src="jquery-3.5.1.min.js"></script>
 
 
 </body>
